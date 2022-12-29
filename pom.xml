@@ -11,7 +11,6 @@
 	<module>person-api</module>
 	<module>person-ejb</module>
 	<module>undika-web</module>
-	<module>person-web</module>
 	<module>undika-ear</module>
 	</modules>
 

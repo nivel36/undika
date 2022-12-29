@@ -20,13 +20,6 @@
 
 		<dependency>
 			<groupId>es.nivel36</groupId>
-			<artifactId>person-web</artifactId>
-			<type>war</type>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>es.nivel36</groupId>
 			<artifactId>person-ejb</artifactId>
 			<type>ejb</type>
 			<version>0.0.1-SNAPSHOT</version>
@@ -58,18 +51,12 @@
 						<webModule>
 							<groupId>es.nivel36</groupId>
 							<artifactId>undika-web</artifactId>
-							<contextRoot>/</contextRoot>
-						</webModule>
-						<webModule>
-							<groupId>es.nivel36</groupId>
-							<artifactId>undika-web</artifactId>
 							<contextRoot>/person/</contextRoot>
 						</webModule>
 						<ejbModule>
 							<groupId>es.nivel36</groupId>
 							<artifactId>person-ejb</artifactId>
 						</ejbModule>
-
 					</modules>
 					<outputFileNameMapping>@{artifactId}@-@{version}@@{dashClassifier?}@.@{extension}@</outputFileNameMapping>
 					<generateApplicationXml>true</generateApplicationXml>
